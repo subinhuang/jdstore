@@ -10,6 +10,7 @@ Rails.application.routes.draw do
         post :ship
         post :shipped
         post :return
+      end 
     end
   end
 
@@ -35,5 +36,4 @@ Rails.application.routes.draw do
     namespace :account do
       resources :orders
     end
-
 end
