@@ -3,6 +3,6 @@ module CartsHelper
       cart.total_price
   end
   def clean!
-    cart_items.destroy_all 
+    cart_items.destroy_all
   end
 end
