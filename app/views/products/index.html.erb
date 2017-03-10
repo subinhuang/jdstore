@@ -1,14 +1,30 @@
-<div class="row">
+<div class="container1">
+ <div class="row">
+   <br>
+   <br>
+   <br>
   <% @products.each do |product|%>
-    <div class="col-xs-6 col-md-3">
-      <%= link_to product_path(product) do%>
-        <%if product.image.present?%>
-          <%= image_tag(product.image.thumb.url)%>
-        <%else%>
-          <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
-        <%end%>
-      <%end%>
-      <%= product.title %>¥ <%= product.price %>
-    </div>
-  <%end%>
+    <div class="col-md-4 col-sm-6">
+      <span class="thumbnail">
+       <%= link_to product_path(product) do%>
+         <%if product.image.present?%>
+           <%= image_tag(product.image.thumb.url)%>
+         <%else%>
+           <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
+         <%end%>
+       <%end%>
+       <%= product.title %>
+       <hr class="line">
+       <div class="row">
+        <div class="col-md-6 col-sm-6">
+           ¥ <%= product.price %>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+        </div>
+      </div>
+      </span>
+     </div>
+   <%end%>
+  </div>
 </div>

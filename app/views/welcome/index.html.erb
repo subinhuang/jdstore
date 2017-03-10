@@ -1,6 +1,5 @@
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
-  <!-- <div class="overlay"></div> -->
 
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -13,14 +12,14 @@
   <div class="carousel-inner">
     <div class="item slides active">
       <div class="overlay"></div>
-      <div class="slide-1"></div>
 
+      <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1>We are creative</h1>
-            <h3>Get start your next awesome project</h3>
+            <h1>We are cool </h1>
+            <h3>Get your next awesome product</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+        <button class="btn btn-hero btn-lg" role="button"><%= link_to("See all products", products_path)%> </button>
       </div>
     </div>
     <div class="item slides">
@@ -30,9 +29,9 @@
       <div class="hero">
         <hgroup>
             <h1>We are smart</h1>
-            <h3>Get start your next awesome project</h3>
+            <h3>Get your next awesome product</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+        <button class="btn btn-hero btn-lg" role="button"><a href="products">See all products</a> </button>
       </div>
     </div>
     <div class="item slides">
@@ -42,10 +41,175 @@
       <div class="hero">
         <hgroup>
             <h1>We are amazing</h1>
-            <h3>Get start your next awesome project</h3>
+            <h3>Get your next awesome product</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+        <button class="btn btn-hero btn-lg" role="button"><a href="products">See all products</a> </button>
       </div>
     </div>
   </div>
 </div>
+
+<br>
+<br>
+<h2 class="baokuan"> -爆款- </h2>
+<br>
+
+<!-- 产品显示区 -->
+<div class="container">
+	<div class="row">
+    	<!-- BEGIN PRODUCTS 产品1-->
+  		<div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://static1.squarespace.com/static/525b0dcae4b030e5f06fdea7/5637062ae4b05c5c7e7a0dcc/56370630e4b05c5c7e7a0de5/1446446643300/Lumio_Product_4.jpg" alt="...">
+      			<h4>Lumio</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+      			<p>一本发出暖心光亮的书 </p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$29,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+      <!-- 产品2 -->
+  		<div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://i.stack.imgur.com/7Sh0g.jpg" alt="...">
+      			<h4>Bike</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+      			<p>新概念自行车 </p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$129,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+      <!-- 产品3 -->
+  		<div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://static1.squarespace.com/static/51d25133e4b04f3aa85ef123/5515208ae4b0ac8577a5a255/55dae4e2e4b0c4207757f5c4/1440408820902/allstonefb.jpg" alt="...">
+      			<h4>Silver Shine stone</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+      			<p>带天然纹理的石头手表</p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$19,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+      <div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://making-photos.b0.upaiyun.com/photos/e896aacc2eabcfce0f1453586ccb6691.jpg!middle" alt="...">
+      			<h4>情侣背包</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+      			<p>天然一对 </p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$59,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+      <div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://making-photos.b0.upaiyun.com/photos/6844c0bf0e4122831145a08202c94244.jpeg!middle" alt="...">
+      			<h4>负离子空气净化器</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+      			<p>为您和世界带来健康的名字，空气维生素 </p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$559,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+      <div class="col-md-4 col-sm-6">
+    		<span class="thumbnail">
+      			<img src="https://making-photos.b0.upaiyun.com/photos/dfcd37a103e89c0a593d818df59b58e0.jpg!middle" alt="...">
+      			<h4>Product Tittle</h4>
+      			<div class="ratings">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+      			<p>独处、会友、燃一支香，让周围的空气被沉静悠远 </p>
+      			<hr class="line">
+      			<div class="row">
+      				<div class="col-md-6 col-sm-6">
+      					<p class="price">$49,90</p>
+      				</div>
+      				<div class="col-md-6 col-sm-6">
+      					<button class="btn btn-success right" > <%= link_to("MORE", products_path) %></button>
+      				</div>
+
+      			</div>
+    		</span>
+  		</div>
+
+
+  		<!-- END PRODUCTS -->
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
