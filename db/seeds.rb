@@ -29,10 +29,10 @@
 # 	              Pneumatic seat-height adjustment; padded seat for comfort.",
 # 	        image_path: "#{Rails.root}/public/uploads/product/image/1/2.jpg"}
 # ]
-
-u = User.create([ email: 'admin@test.com' ,  password: '123456' ,password_confirmation:'123456',is_admin:true])
-puts "create a adminer"
-
+#
 # p1 = Product.create([title:products[0][:title],description:products[0][:description],quantity:20,price:30,image:open(products[0][:image_path])])
 # p2 = Product.create([title:products[1][:title],description:products[1][:description],quantity:20,price:30,image:open(products[1][:image_path])])
 # puts "create products"
+
+u = User.create([ email: 'admin@test.com' ,  password: '123456' ,password_confirmation:'123456',is_admin:true])
+puts "create a adminer"
