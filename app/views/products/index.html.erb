@@ -1,16 +1,20 @@
-<div class="bgimage">
-<div class="container1">
+<div class="container">
   <div class="row">
+    <div class="bgimage">
+
+   <br>
    <br>
    <br>
    <br>
      <div class="mylove">
        <h1>LOVE・MY・LOVE</h1>
      </div>
-   </br>
+   <br>
+   <br>
+   <br>
 
   <% @products.each do |product|%>
-    <div class="col-md-3 col-sm-4">
+    <div class="col-md-4 col-sm-6">
       <span class="thumbnail">
        <%= link_to product_path(product) do%>
          <%if product.image.present?%>
@@ -26,9 +30,9 @@
            ¥ <%= product.price %>
         </div>
         <div class="col-md-6 col-sm-6">
-          <!-- <button class="btn  right" >  -->
+          <button class="btn  right" >
             <%= link_to("MORE", products_path) %>
-          <!-- </button> -->
+          </button>
         </div>
       </div>
       </span>
