@@ -73,7 +73,7 @@
  // 导航栏修改
   .navbar {
    position: relative;
-   min-height: 50px;
+   min-height: 60px;
    margin-bottom: 0px;  //改为0导航栏和底下图片无缝相接
    border: 1px solid #a94442;
    width: 100%;
@@ -87,7 +87,6 @@
  .navbar-default {
    border-color: #e7e7e7;
    background-color: rgba(255,255,255 ,0.3);//背景颜色含透明度 rgb(255,0,255)
-  //  background-color: rgba(54,56,58,0.78);
 
  }
  // 导航栏的文字颜色
