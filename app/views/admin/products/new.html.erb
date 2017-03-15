@@ -19,7 +19,10 @@
   </div>
 
   <div class="group">
-    <%#= f.input :image, as: :file %>
+        <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Category") %>
+  </div>
+
+  <div class="group">
     <%= f.label :avatar %><br>
     <%= f.file_field :avatar, :multiple => true, name: "photos[avatar][]" %>
   </div>

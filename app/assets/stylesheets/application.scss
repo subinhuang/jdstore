@@ -18,7 +18,21 @@
  @import "bootstrap";
  @import "font-awesome";
 
-// .banner-content{color:#fff;padding:200px}
+// 分类栏
+.productcatnav{position:relative;min-height:50px;margin-bottom:0px;border:1px solid transparent}
+#flipkart2-navbar{margin:-21px 0px;background-color:#EEEEEE;color:#384245;height:50px;font-family:verdana, PingFangSC-Medium, Geneva, sans-serif;z-index:500;padding-bottom:0px}.nav>li>a{position:relative;display:block;padding:15px 5px}.productcatnav{position:relative;min-height:50px;margin-bottom:0px;border:1px solid transparent}.navbar-brand>img{display:inline-block;margin-right:5px;margin-top:-25px;height:45px}.navbar-default .navbar-nav>li>a{color:#000}.navbar-nav>li>a{font-size:15px;font-weight:400;color:#000}#flipkart2-navbar
+.welcome-content-title:after{position:absolute;content:'';width:10px;height:28px;left:0;top:calc(50% - 14px);background:#FF5722}.welcome-content-title{font-family:"Comic Sans MS", 'Roboto', sans-serif;width:100%;font-size:23px;font-weight:500;color:#384245;padding-left:20px;height:40px;line-height:40px;position:relative}.hotproductbg{background:#fafafa}
+.nocontent{padding:20px}
+.productbg{background:#fafafa;margin-top:-20px;margin-bottom:-20px}
+.product-item{padding:0px;background:#fff;margin-top:20px;position:relative}
+.product-item h3 a {font-family: verdana, PingFangSC-Medium, Geneva, sans-serif;color: #384245;}.pi-price{font-family:"Comic Sans MS", 'Roboto', sans-serif;color:#3bb257;font-size:18px;float:left;padding-top:1px}
+.product-item .add2cart {
+    font-family: "Comic Sans MS", 'Roboto', sans-serif;
+    float: left;
+    color: #384245;
+    border: 1px #ededed solid;
+    padding: 3px 6px;
+}
 .mylove {
    font-size:5em;
    text-align: center;
@@ -73,6 +87,7 @@
  .navbar-default {
    border-color: #e7e7e7;
    background-color: rgba(255,255,255 ,0.3);//背景颜色含透明度 rgb(255,0,255)
+  //  background-color: rgba(54,56,58,0.78);
 
  }
  // 导航栏的文字颜色
