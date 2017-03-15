@@ -22,10 +22,9 @@
 .mylove {
    font-size:5em;
    text-align: center;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
    background-color: rgba(255,255,255 ,0.5);
 }
-
 // product 首页背景
 .bgimage{
    color: #2E8B57;
@@ -73,7 +72,7 @@
  // 导航栏背景修改
  .navbar-default {
    border-color: #e7e7e7;
-   background-color: rgba(255,255,255 ,1);//背景颜色含透明度 rgb(255,0,255)
+   background-color: rgba(255,255,255 ,0.3);//背景颜色含透明度 rgb(255,0,255)
 
  }
  // 导航栏的文字颜色
@@ -91,7 +90,14 @@
   margin-left: auto;
   padding-left: 50px;
   padding-right: 50px;
-
+}
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 .row {
     margin-left: -15px;
@@ -104,47 +110,6 @@
 
 
 // ----------产品首页相关
-.menu-wrap{background:#696969;height:42px;line-height:42px;color:#fff}
-.menuList-item{padding:0 22px;cursor:pointer}
-.menuList-item a{color:#FFF}
-.menuList-item:hover{background-color:#434343}
-.menuList-activeItem{background:#3CB371}
-.menuList-activeItem:hover{background:#D32048}
-.fl {
-    float: left;
-    display: inline;
-}
-.order {
-    background: #fff;
-    height: 44px;
-    line-height: 44px;
-}
-.w1200 {
-    width: 1000px;
-}
-.mt30 {
-    margin-top: 30px;
-}
-.w1200 {
-    width: 1000px;
-}
-.clearfix {
-    display: block;
-}
-.bc {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-.orderList-orderItem{cursor:pointer}.orderList-activeItem a{color:#d32048}
-.pr20 {
-    padding-right: 20px;
-}
-.pl20 {
-    padding-left: 20px;
-}
-.pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;word-break:break-all;word-wrap:break-word;color:#333333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}
-
-
 
 
 // ----------footer相关
