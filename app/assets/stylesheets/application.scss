@@ -82,7 +82,10 @@
    top: 0;
    left: 0;
  }
-
+ .navbar > .container-fluid .navbar-brand {
+     margin-left: -10px;
+     font-size: 25px;
+ }
  // 导航栏背景修改
  .navbar-default {
    border-color: #e7e7e7;
